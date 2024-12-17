@@ -2,8 +2,13 @@
 /* Your CSS Code here. */
 .holder {
 display: grid;
-  /* column-gap: 2px; */
-  grid-template-columns: repeat(2, 100px);
-	/* width:200px; */
+grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+    /* width: 100vw; */
+    /* background-color: bisque; */
+    /* justify-content: center;
+    align-items: center; */
 }
 .item { padding:15px; background-color: #2196F3; border:1px solid #000;}
