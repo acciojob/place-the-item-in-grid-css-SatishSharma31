@@ -3,7 +3,7 @@
 .holder {
 display: grid;
   /* column-gap: 2px; */
-  grid-template-columns: repeat(2, 100px 100px);
-	width:200px;
+  grid-template-columns: repeat(2, 100px);
+	/* width:200px; */
 }
 .item { padding:15px; background-color: #2196F3; border:1px solid #000;}
